@@ -7,7 +7,11 @@ gulp.task('sass', function () {
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./dist'));
 });
- 
+
+gulp.task('images', function () {
+  return gulp.src('./src/images/**')
+    .pipe(gulp.dest('./dist/images'));
+});
 
 gulp.task('serve', function() {
   //2. serve at custom port
