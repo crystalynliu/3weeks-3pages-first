@@ -48,12 +48,8 @@ $title-family: 'Open Sans Condensed';
   background-image: url('/dist/images/hero_image.png');
   background-size: 100% 100%;
   text-align: center;
-  color: #fff;
-  font-family: $title-family;
   .header-text{
-    font-size: $font-size-title;
     color: #fff;
-    font-family: $title-family;
   }
   .header-btn{
     button{
@@ -69,9 +65,30 @@ $title-family: 'Open Sans Condensed';
   }
 }
 
+.mission{
+  text-align: center;
+  .mission-text{
+    font-size: 26px;
+    margin: 0 20%;
+    margin-bottom: 40px;
+  }
+  .mission-btn{
+    font-size: 18px;
+    padding: 15px 80px;
+    border:solid 1px #fecc6a;
+    border-radius: 5px;
+    background-color: #fecc6a;
+  }
+}
+
+.title{
+  font-size: $font-size-title;
+  font-family: $title-family;
+}
+
 .row-line{
   margin: 0 -15px;
-  padding: 200px 0;
+  padding: 180px 0;
 }
 
 .pull-left{
