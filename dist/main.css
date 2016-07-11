@@ -26,7 +26,7 @@
       background: #fff; }
 
 .header {
-  background-image: url("/dist/images/hero_image.png");
+  background-image: url("/Images/hero_image.png");
   background-size: 100% 100%;
   text-align: center; }
   .header .header-text {
