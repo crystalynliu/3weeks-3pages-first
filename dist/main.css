@@ -1,3 +1,6 @@
+body {
+  font-family: 'Helvetica Neue',sans-serif; }
+
 .navbar {
   font-size: 18px;
   min-height: 50px;
@@ -71,7 +74,7 @@
   .progress div {
     float: left;
     margin: 0 20px;
-    padding: 20px 90px;
+    width: 440px;
     font-size: 30px;
     border-radius: 5px;
     border: solid 1px #ccc; }
